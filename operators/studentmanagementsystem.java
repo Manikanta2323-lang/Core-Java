@@ -53,7 +53,7 @@ public class studentmanagementsystem {
 
         // using if statement
         
-        /*  if ((ts > avg) && AttendancePercentage>75 ){
+        /*IF((ts > avg) && AttendancePercentage>75 ){
              System.out.println("This award was given to: "+Name);
         }*/
 
