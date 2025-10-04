@@ -42,7 +42,7 @@ public class second_conditon {
             }else{
                 System.out.println("you cannot vote too younger");
               }
-        
+
     
     }
 
