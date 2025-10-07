@@ -17,6 +17,24 @@ public class User {
         superAdmin.watchVideos();
         superAdmin.addVideos();
         superAdmin.deleteVideos();
+
+
+
+         System.out.println("==== With Inheritance ====");
+        
+        System.out.println("==== Learner ====");
+        learner.watchVideos();
+
+        Videoadmininherit videoAdminInherit = new Videoadmininherit();
+        System.out.println("==== Video Admin ====");
+        videoAdminInherit.watchVideos();
+        videoAdminInherit.addVideos();
+
+        Superadmininherit superAdminInherit = new Superadmininherit();
+        System.out.println("==== Super Admin ====");
+        superAdminInherit.watchVideos();
+        superAdminInherit.addVideos();
+        superAdminInherit.deleteVideos();
     }
 
 }
