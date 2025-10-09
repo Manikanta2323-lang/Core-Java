@@ -10,9 +10,9 @@ public class UnaryOperator {
 
          System.out.println("postincrement : "+(a++));
         
-         System.out.println("preincrement : "+(++b));
+         System.out.println("preincrement : "+(++a));
          
-         System.out.println("postdecrement : "+(a--));
+         System.out.println("postdecrement : "+(b--));
          
          System.out.println("predecrement : "+(--b));
 
